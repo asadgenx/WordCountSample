@@ -131,9 +131,9 @@ public class cmd
        {
     	   String[] stringArray = {"is", "String2", "String3"};
     	   testing m= new testing();
-    	  // System.out.println(m.implodeArray(stringArray, ","));
+    	 System.out.println(m.implodeArray(stringArray, ","));
     	    String str="Today, is a \"bi'g day.Its all about nothing";
-    	//   System.out.println(m.punctuation(str));
+    	   System.out.println(m.punctuation(str));
     	   
     	  
     	  //  System.out.println(m.stopWordsRemover(str));
@@ -141,7 +141,7 @@ public class cmd
     	    String newWord = "newWord";  
     	    String sentence = "roted";  
     	    String newSentence = m.Dictwords(sentence);  
-    	      //System.out.println(newSentence);
+    	     System.out.println(newSentence);
     	    
     	    
     	  
